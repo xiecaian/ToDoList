@@ -1,0 +1,96 @@
+.wrap{
+	position:relative;
+	border-radius:15px;
+	border:1px solid #ffffff;
+	width:515px;
+	height:300px;
+	overflow:auto;
+}
+.list-hd{
+	position:fixed;
+	position:relative;
+	width:100%;
+	height:44px;
+	background:#000000;
+	color:#ffffff;
+}
+.list-hd h3{
+	height:44px;
+	line-height:44px;
+	text-align:center;
+}
+.list-hd .list-hd-btn{
+	position:absolute;
+	right:50px;
+	top:15px;
+	
+}
+.list-hd a{
+	color:#ffffff;	
+}
+.input-wrap{
+	display: none;	
+}
+.input-wrap.active{
+	display: block;
+	position:absolute;
+	left:0px;
+	top:44px;
+	width:100%;
+	height:40px;
+	border-bottom:1px solid #000000;
+}
+.input-wrap .input-bd{
+	/*float:left;不美观，感觉浮起来了*/
+	position:absolute;/*这里是一个问题*/
+	top:0px;
+	left:0px;
+	width:410px;
+	height:100%;
+	padding:5px 5px 5px 10px;	
+}
+.input-wrap input{
+	width:100%;
+	height:100%;
+}
+.input-wrap .btn-bd{
+	/*float:left;不美观，感觉浮起来了*/
+	position:absolute;/*这里是一个问题*/
+	top:0px;
+	left:410px;
+	width:90px;
+	height:100%;
+	padding:5px 10px 5px 5px;	
+}
+.input-wrap .btn-bd button{
+	width:100%;
+	height:100%;
+	background-color:#ffffff;	
+}
+.list-wrap{
+	position:absolute;
+	left:0px;
+	top:84px;
+	width: 100%;
+}
+.item{
+	position: relative;
+	height:32px;
+	width: 100%;
+	border-bottom: 1px solid #424242;
+}
+.item .item-content{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	widows: 424px;
+
+}
+.item .btn-group{
+	height: 100%;
+	margin-left: 424px;
+}
+.item .btn-group a{
+	margin-left: 15px;
+}
